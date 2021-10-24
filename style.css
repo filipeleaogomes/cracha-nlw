@@ -18,8 +18,9 @@ main {
   min-height: 812px;
   height: 100vh;
 }
+
 .content {
-  max-width: 250px;
+  max-width: 358px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -65,4 +66,41 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+.instagram .instaImg:hover {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid hsl(240, 9%, 89%);
+}
+.twitter .twitterImg:hover {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid hsl(240, 9%, 89%);
+}
+.facebook .faceImg:hover {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid hsl(240, 9%, 89%);
+}
+
+@media (min-width: 960px) {
+  main {
+    background: url(images/background2.svg) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  p {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .content {
+    background: url(images/back4.svg);
+    width: 358px;
+    height: 650px;
+    margin-bottom: 10rem;
+  }
 }
